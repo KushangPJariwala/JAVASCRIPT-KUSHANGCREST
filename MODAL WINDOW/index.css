@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(to right, #5dbeff, #401db4, #061d67);
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  /* Add other styles as needed */
+}
+.btns {
+  display: flex;
+  justify-content: space-evenly;
+}
+.modalbtn {
+  width: 15%;
+  font-size: 20px;
+  margin-top: 5vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  border-radius: 5vh;
+  border: 2px solid black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.modal {
+    margin-top: 20vh;
+  border: 2px solid whitesmoke;
+  background-color: beige;
+  color: black;
+  width: 40%;
+}
+.closebtn{
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    cursor: pointer;
+    /* width:max-content; */
+    margin-left: 93%;
+    border: 2px solid red;
+}
+.text{
+padding-left: 4vh;
+padding-right: 4vh;
+padding-bottom: 4vh;
+}
+.hidden{
+    display: none;
+}
